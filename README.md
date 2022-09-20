@@ -17,6 +17,7 @@
 - [starter](starter/): CDN links for our CSS and JS
 - [webpack](webpack/): Import and bundle Sass and JS with Webpack
 - [vite](vite/): Sass, JS via Vite
+- [parcel](parcel/) - Sass, JS via Parcel
 
 ## License
 
