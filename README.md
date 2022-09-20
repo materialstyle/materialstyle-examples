@@ -16,6 +16,7 @@
 
 - [Starter](starter/): CDN links for our CSS and JS
 - [Sass & JS](sass-js/) — Import Sass, Autoprefixer, Stylelint, and our JS bundle via npm
+- [Sass & ESM JS](sass-js-esm/) — Import Sass, Autoprefixer, and Stylelint via npm, and then load our ESM JS with a shim
 - [Webpack](webpack/): Import and bundle Sass and JS with Webpack
 - [Vite](vite/): Sass, JS via Vite
 - [Parcel](parcel/) - Sass, JS via Parcel
