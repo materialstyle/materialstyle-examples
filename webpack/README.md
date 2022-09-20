@@ -6,7 +6,7 @@ Include [Material Style](https://materialstyle.github.io)'s source Sass and indi
 
 ```sh
 git clone https://github.com/materialstyle/materialstyle-examples.git
-cd examples/webpack/
+cd materialstyle-examples/webpack/
 npm install
 npm start
 ```

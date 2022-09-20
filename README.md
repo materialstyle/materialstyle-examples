@@ -14,10 +14,11 @@
 
 ## Directory
 
-- [starter](starter/): CDN links for our CSS and JS
-- [webpack](webpack/): Import and bundle Sass and JS with Webpack
-- [vite](vite/): Sass, JS via Vite
-- [parcel](parcel/) - Sass, JS via Parcel
+- [Starter](starter/): CDN links for our CSS and JS
+- [Sass & JS](sass-js/) — Import Sass, Autoprefixer, Stylelint, and our JS bundle via npm
+- [Webpack](webpack/): Import and bundle Sass and JS with Webpack
+- [Vite](vite/): Sass, JS via Vite
+- [Parcel](parcel/) - Sass, JS via Parcel
 
 ## License
 
