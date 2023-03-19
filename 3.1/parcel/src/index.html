@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Style with Parcel</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+  <div class="container py-4 px-3 mx-auto">
+    <header class="d-flex justify-content-between align-items-md-center pb-3 mb-3 border-bottom">
+      <h1 class="h4">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <img class="d-inline-block" width="40" height="40" src="https://materialstyle.github.io/assets/images/MSIconNewColorV2.svg" alt="Material Style">
+          <span>+ Parcel</span>
+        </a>
+      </h1>
+      <a href="https://github.com/materialstyle/materialstyle-examples/tree/main/parcel/" target="_blank" rel="noopener">View on GitHub</a>
+    </header>
+
+    <h1>Build Material Style with Parcel</h1>
+    <div class="px-0">
+      <p class="fs-5">
+        You've successfully loaded Material Style with Parcel!<br>
+        It uses Parcel to compile and bundle our Sass and JavaScript.<br><br>
+        The Primary theme color is updated from blue to purple using Sass.
+      </p>
+    </div>
+
+    <div class="d-flex gap-3 flex-wrap my-4">
+      <div class="p-3 bg-primary" style="color: var(--bs-text-on-primary);">.bg-primary</div>
+      <div class="p-3 bg-primary-subtle text-primary-emphasis">.bg-primary-subtle</div>
+      <div class="p-3 bg-primary bg-gradient" style="color: var(--bs-text-on-primary);">.bg-primary.bg-gradient</div>
+      <div class="p-3 text-bg-primary">.text-bg-primary</div>
+    </div>
+
+    <div class="d-flex gap-3 flex-wrap my-4">
+      <label class="text-primary">.text-primary</label>
+      <label class="text-primary-emphasis">.text-primary-emphasis</label>
+      <a href="#" class="link-primary">.link-primary</a>
+    </div>
+
+    <div class="d-flex gap-3 flex-wrap my-4">
+      <div class="col">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="firstname"
+                 placeholder="firstname" autocomplete="off">
+          <label for="firstname">Firstname</label>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="form-floating form-floating-outlined">
+          <input type="text" class="form-control" id="firstname-outline"
+                 placeholder="firstname" autocomplete="off">
+          <label for="firstname-outline">Firstname</label>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="form-floating">
+          <select class="form-select">
+            <option value="" label="blank option"></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+          </select>
+          <label>Select One</label>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="form-floating form-floating-outlined">
+          <select class="form-select">
+            <option value="" label="blank option"></option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+          </select>
+          <label>Select One</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex gap-3 flex-wrap my-4">
+      <div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+          <label class="form-check-label" for="checkbox1">Checkbox</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="checkbox2" checked>
+          <label class="form-check-label" for="checkbox2">Checkbox</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radioSet1" id="radio1">
+          <label class="form-check-label" for="radio1">Radio</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="radioSet1" id="radio2" checked>
+          <label class="form-check-label" for="radio2">Radio</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="switch1">
+          <label class="form-check-label" for="switch1">Switch</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="switch2" checked>
+          <label class="form-check-label" for="switch2">Switch</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-check form-switch form-switch-square">
+          <input class="form-check-input" type="checkbox" id="switch5">
+          <label class="form-check-label" for="switch5">Switch</label>
+        </div>
+        <div class="form-check form-switch form-switch-square">
+          <input class="form-check-input" type="checkbox" id="switch6" checked>
+          <label class="form-check-label" for="switch6">Switch</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-check form-switch form-switch-material">
+          <input class="form-check-input" type="checkbox" id="switch9">
+          <label class="form-check-label" for="switch9">Switch</label>
+        </div>
+        <div class="form-check form-switch form-switch-material">
+          <input class="form-check-input" type="checkbox" id="switch10" checked>
+          <label class="form-check-label" for="switch10">Switch</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-primary my-4" role="alert">
+      Primary Alert
+    </div>
+
+    <div class="my-4">
+      <label for="customRange1" class="form-label">Range</label>
+      <input type="range" class="form-range" id="customRange1">
+    </div>
+
+    <div class="d-flex gap-3 flex-wrap my-4">
+      <button type="button" class="btn btn-primary">
+        Primary button
+      </button>
+
+      <button type="button" class="btn btn-outline-primary">
+        Outlined button
+      </button>
+
+      <button type="button" class="btn btn-outline-primary border-0">
+        Text button
+      </button>
+
+      <button type="button" class="btn btn-primary">
+        Primary button with ripple effect
+        <span class="ripple-surface"></span>
+      </button>
+
+      <button type="button" class="btn btn-fab btn-primary">
+        💖
+      </button>
+    </div>
+
+    <hr class="mt-5 mb-4">
+
+    <p class="text-muted">Created and open sourced by the Material Style team. Licensed MIT.</p>
+  </div>
+  </body>
+</html>

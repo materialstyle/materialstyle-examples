@@ -1,0 +1,90 @@
+// Override Material Style's Sass default variables
+//
+// Nearly all variables in Material Style are written with the `!default` flag.
+// This allows you to override the default values of those variables before
+// you import Material Style's source Sass files.
+//
+// Overriding the default variable values is the best way to customize your
+// CSS without writing _new_ styles. For example, change you can either change
+// `$body-color` or write more CSS that override's Material Style's CSS like so:
+// `body { color: red; }`.
+
+
+//
+// Bring in Material Style
+//
+
+// Option 1
+//
+// Import all of Material Style's CSS
+
+// @import "~@materialstyle/materialstyle/scss/materialstyle";
+
+// Option 2
+//
+// Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
+
+$primary: #6f42c1;
+
+// Required
+@import "~@materialstyle/materialstyle/scss/functions";
+@import "~@materialstyle/materialstyle/scss/variables";
+@import "~@materialstyle/materialstyle/scss/variables-dark";
+@import "~@materialstyle/materialstyle/scss/maps";
+@import "~@materialstyle/materialstyle/scss/mixins";
+@import "~@materialstyle/materialstyle/scss/utilities";
+@import "~@materialstyle/materialstyle/scss/root";
+@import "~@materialstyle/materialstyle/scss/reboot";
+
+@import "~@materialstyle/materialstyle/scss/type";
+// @import "~@materialstyle/materialstyle/scss/images";
+@import "~@materialstyle/materialstyle/scss/containers";
+@import "~@materialstyle/materialstyle/scss/grid";
+// @import "~@materialstyle/materialstyle/scss/tables";
+
+// @import "~@materialstyle/materialstyle/scss/ripple-surface";
+// @parcel/transformer-sass throws error when importing ripple-surface.scss
+// Check issue: https://github.com/parcel-bundler/parcel/issues/7923
+
+@import "~@materialstyle/materialstyle/scss/forms";
+@import "~@materialstyle/materialstyle/scss/buttons";
+@import "~@materialstyle/materialstyle/scss/transitions";
+@import "~@materialstyle/materialstyle/scss/dropdown";
+// @import "~@materialstyle/materialstyle/scss/button-group";
+// @import "~@materialstyle/materialstyle/scss/nav";
+// @import "~@materialstyle/materialstyle/scss/navbar"; // Requires nav
+// @import "~@materialstyle/materialstyle/scss/tab";
+// @import "~@materialstyle/materialstyle/scss/card";
+// @import "~@materialstyle/materialstyle/scss/accordion";
+// @import "~@materialstyle/materialstyle/scss/breadcrumb";
+// @import "~@materialstyle/materialstyle/scss/pagination";
+// @import "~@materialstyle/materialstyle/scss/badge";
+@import "~@materialstyle/materialstyle/scss/alert";
+// @import "~@materialstyle/materialstyle/scss/progress";
+// @import "~@materialstyle/materialstyle/scss/list-group";
+//@import "~@materialstyle/materialstyle/scss/close";
+// @import "~@materialstyle/materialstyle/scss/toasts";
+// @import "~@materialstyle/materialstyle/scss/snackbar";
+//@import "~@materialstyle/materialstyle/scss/modal"; // Requires transitions
+// @import "~@materialstyle/materialstyle/scss/tooltip";
+//@import "~@materialstyle/materialstyle/scss/popover";
+// @import "~@materialstyle/materialstyle/scss/carousel";
+// @import "~@materialstyle/materialstyle/scss/spinners";
+//@import "~@materialstyle/materialstyle/scss/offcanvas"; // Requires transitions
+// @import "~@materialstyle/materialstyle/scss/placeholders";
+// @import "~@materialstyle/materialstyle/scss/shape";
+
+// Helpers
+@import "~@materialstyle/materialstyle/scss/helpers";
+
+// Utilities
+@import "~@materialstyle/materialstyle/scss/utilities/api";
+
+
+//
+// Custom styles
+//
+
+body {
+  padding: 1.5rem;
+}
