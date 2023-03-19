@@ -1,0 +1,12 @@
+{
+  "name": "Material Style Starter",
+  "description": "Include Material Style CSS and JS via CDN.",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve --listen 3000"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
