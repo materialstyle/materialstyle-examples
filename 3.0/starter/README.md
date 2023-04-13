@@ -6,6 +6,6 @@ Include [Material Style](https://materialstyle.github.io) CSS and JS via CDN.
 
 ```sh
 git clone https://github.com/materialstyle/materialstyle-examples.git
-cd materialstyle-examples/starter/
+cd materialstyle-examples/3.0/starter/
 open index.html
 ```

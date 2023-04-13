@@ -6,7 +6,7 @@ Include [Material Style](https://materialstyle.github.io)'s source Sass and indi
 
 ```sh
 git clone https://github.com/materialstyle/materialstyle-examples.git
-cd materialstyle-examples/parcel/
+cd materialstyle-examples/3.0/parcel/
 npm install
 npm start
 ```

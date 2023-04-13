@@ -16,10 +16,24 @@
   --bs-primary-border-subtle: #c5b3e6;
 }
 
-.form-switch .form-check-input:focus {
-  --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23b7a1e0%27/%3e%3c/svg%3e");
+[data-bs-theme="dark"] {
+  --bs-primary: #a184d7;
+  --bs-primary-rgb: 161, 132, 215;
+  --bs-primary-hover: #b49ddf;
+  --bs-primary-active: #bda9e3;
+  --bs-primary-subtle: #2c1a4d;
+  --bs-primary-subtle-hover: #321e57;
+  --bs-primary-subtle-active: #432874;
+  --bs-primary-emphasis: #beaae3;
+  --bs-primary-emphasis-hover: #b7a1e0;
+  --bs-text-on-primary: #000;
+  --bs-primary-border-subtle: #432874;
 }
 
-.form-switch.form-switch-square .form-check-input:focus {
-  background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-1 -1 8 8%27%3e%3crect width=%276%27 height=%276%27 fill=%27%23b7a1e0%27/%3e%3c/svg%3e) !important;
+.form-switch .form-check-input {
+  --bs-form-switch-focus-bg-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23b7a1e0%27/%3e%3c/svg%3e");
+}
+
+.form-switch.form-switch-square .form-check-input {
+  --bs-form-switch-focus-bg-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-1 -1 8 8%27%3e%3crect width=%276%27 height=%276%27 fill=%27%23b7a1e0%27/%3e%3c/svg%3e");
 }

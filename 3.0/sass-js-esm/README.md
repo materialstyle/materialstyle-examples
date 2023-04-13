@@ -6,7 +6,7 @@ Include [Material Style](https://materialstyle.github.io)'s source Sass and an E
 
 ```sh
 git clone https://github.com/materialstyle/materialstyle-examples.git
-cd materialstyle-examples/sass-js-esm/
+cd materialstyle-examples/3.0/sass-js-esm/
 npm install
 npm start
 ```
