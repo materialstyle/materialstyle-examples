@@ -181,12 +181,14 @@
     {
       "imports": {
         "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/esm/popper.js",
-        "materialstyle": "https://cdn.jsdelivr.net/npm/@materialstyle/materialstyle/dist/js/materialstyle.esm.min.js"
+        "materialstyle": "https://cdn.jsdelivr.net/npm/@materialstyle/materialstyle/dist/js/materialstyle.esm.min.js",
+        "mdc": "https://cdn.jsdelivr.net/npm/@material/ripple@14.0.0/+esm"
       }
     }
     </script>
     <script type="module">
       import * as materialstyle from 'materialstyle'
+      import * as mdc from 'mdc'
 
       // Initialize Text Fields
       var textFieldList = [].slice.call(document.querySelectorAll('.form-control'))
@@ -198,6 +200,11 @@
       var selectList = [].slice.call(document.querySelectorAll('.form-select'))
       selectList.map(function (select) {
         return new materialstyle.SelectField(select)
+      })
+
+      const rippleSurface = [].slice.call(document.querySelectorAll('.ripple-surface'))
+      rippleSurface.map(function (ripple) {
+        return new mdc.MDCRipple(ripple)
       })
     </script>
     <script type="module" src="js/main.js"></script>
