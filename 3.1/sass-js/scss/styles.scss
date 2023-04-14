@@ -18,7 +18,7 @@
 //
 // Import all of Material Style's CSS
 
-// @import "~@materialstyle/materialstyle/scss/materialstyle";
+// @import "@materialstyle/materialstyle/scss/materialstyle";
 
 // Option 2
 //
@@ -27,54 +27,54 @@
 $primary: #6f42c1;
 
 // Required
-@import "~@materialstyle/materialstyle/scss/functions";
-@import "~@materialstyle/materialstyle/scss/variables";
-@import "~@materialstyle/materialstyle/scss/variables-dark";
-@import "~@materialstyle/materialstyle/scss/maps";
-@import "~@materialstyle/materialstyle/scss/mixins";
-@import "~@materialstyle/materialstyle/scss/utilities";
-@import "~@materialstyle/materialstyle/scss/root";
-@import "~@materialstyle/materialstyle/scss/reboot";
+@import "@materialstyle/materialstyle/scss/functions";
+@import "@materialstyle/materialstyle/scss/variables";
+@import "@materialstyle/materialstyle/scss/variables-dark";
+@import "@materialstyle/materialstyle/scss/maps";
+@import "@materialstyle/materialstyle/scss/mixins";
+@import "@materialstyle/materialstyle/scss/utilities";
+@import "@materialstyle/materialstyle/scss/root";
+@import "@materialstyle/materialstyle/scss/reboot";
 
-@import "~@materialstyle/materialstyle/scss/type";
-// @import "~@materialstyle/materialstyle/scss/images";
-@import "~@materialstyle/materialstyle/scss/containers";
-@import "~@materialstyle/materialstyle/scss/grid";
-// @import "~@materialstyle/materialstyle/scss/tables";
-@import "~@materialstyle/materialstyle/scss/ripple-surface";
-@import "~@materialstyle/materialstyle/scss/forms";
-@import "~@materialstyle/materialstyle/scss/buttons";
-@import "~@materialstyle/materialstyle/scss/transitions";
-@import "~@materialstyle/materialstyle/scss/dropdown";
-// @import "~@materialstyle/materialstyle/scss/button-group";
-// @import "~@materialstyle/materialstyle/scss/nav";
-// @import "~@materialstyle/materialstyle/scss/navbar"; // Requires nav
-// @import "~@materialstyle/materialstyle/scss/tab";
-// @import "~@materialstyle/materialstyle/scss/card";
-// @import "~@materialstyle/materialstyle/scss/accordion";
-// @import "~@materialstyle/materialstyle/scss/breadcrumb";
-// @import "~@materialstyle/materialstyle/scss/pagination";
-// @import "~@materialstyle/materialstyle/scss/badge";
-@import "~@materialstyle/materialstyle/scss/alert";
-// @import "~@materialstyle/materialstyle/scss/progress";
-// @import "~@materialstyle/materialstyle/scss/list-group";
-//@import "~@materialstyle/materialstyle/scss/close";
-// @import "~@materialstyle/materialstyle/scss/toasts";
-// @import "~@materialstyle/materialstyle/scss/snackbar";
-//@import "~@materialstyle/materialstyle/scss/modal"; // Requires transitions
-// @import "~@materialstyle/materialstyle/scss/tooltip";
-//@import "~@materialstyle/materialstyle/scss/popover";
-// @import "~@materialstyle/materialstyle/scss/carousel";
-// @import "~@materialstyle/materialstyle/scss/spinners";
-//@import "~@materialstyle/materialstyle/scss/offcanvas"; // Requires transitions
-// @import "~@materialstyle/materialstyle/scss/placeholders";
-// @import "~@materialstyle/materialstyle/scss/shape";
+@import "@materialstyle/materialstyle/scss/type";
+// @import "@materialstyle/materialstyle/scss/images";
+@import "@materialstyle/materialstyle/scss/containers";
+@import "@materialstyle/materialstyle/scss/grid";
+// @import "@materialstyle/materialstyle/scss/tables";
+@import "@materialstyle/materialstyle/scss/ripple-surface";
+@import "@materialstyle/materialstyle/scss/forms";
+@import "@materialstyle/materialstyle/scss/buttons";
+@import "@materialstyle/materialstyle/scss/transitions";
+@import "@materialstyle/materialstyle/scss/dropdown";
+// @import "@materialstyle/materialstyle/scss/button-group";
+// @import "@materialstyle/materialstyle/scss/nav";
+// @import "@materialstyle/materialstyle/scss/navbar"; // Requires nav
+// @import "@materialstyle/materialstyle/scss/tab";
+// @import "@materialstyle/materialstyle/scss/card";
+// @import "@materialstyle/materialstyle/scss/accordion";
+// @import "@materialstyle/materialstyle/scss/breadcrumb";
+// @import "@materialstyle/materialstyle/scss/pagination";
+// @import "@materialstyle/materialstyle/scss/badge";
+@import "@materialstyle/materialstyle/scss/alert";
+// @import "@materialstyle/materialstyle/scss/progress";
+// @import "@materialstyle/materialstyle/scss/list-group";
+//@import "@materialstyle/materialstyle/scss/close";
+// @import "@materialstyle/materialstyle/scss/toasts";
+// @import "@materialstyle/materialstyle/scss/snackbar";
+//@import "@materialstyle/materialstyle/scss/modal"; // Requires transitions
+// @import "@materialstyle/materialstyle/scss/tooltip";
+//@import "@materialstyle/materialstyle/scss/popover";
+// @import "@materialstyle/materialstyle/scss/carousel";
+// @import "@materialstyle/materialstyle/scss/spinners";
+//@import "@materialstyle/materialstyle/scss/offcanvas"; // Requires transitions
+// @import "@materialstyle/materialstyle/scss/placeholders";
+// @import "@materialstyle/materialstyle/scss/shape";
 
 // Helpers
-@import "~@materialstyle/materialstyle/scss/helpers";
+@import "@materialstyle/materialstyle/scss/helpers";
 
 // Utilities
-@import "~@materialstyle/materialstyle/scss/utilities/api";
+@import "@materialstyle/materialstyle/scss/utilities/api";
 
 
 //
