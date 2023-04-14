@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "serve --listen 3000"
+    "start": "sirv --dev --no-clear --port 3000"
   },
-  "dependencies": {
-    "serve": "^13.0.2"
+  "devDependencies": {
+    "sirv-cli": "^2.0.2"
   }
 }
