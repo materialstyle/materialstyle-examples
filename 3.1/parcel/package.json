@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@material/ripple": "^14.0.0",
-    "@materialstyle/materialstyle": "file:../../../../Desktop/materialstyle-materialstyle-3.1.0-alpha1.tgz",
+    "@materialstyle/materialstyle": "^3.1.0-alpha1",
     "@popperjs/core": "^2.11.7"
   },
   "devDependencies": {
