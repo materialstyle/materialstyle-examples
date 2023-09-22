@@ -3,24 +3,26 @@
   "description": "Include Material Style's source Sass and individual JavaScript plugins with Webpack.",
   "version": "0.0.0",
   "private": true,
+  "repository": "materialstyle/materialstyle-examples",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack -w"
   },
   "dependencies": {
     "@material/ripple": "^14.0.0",
-    "@materialstyle/materialstyle": "^3.1.0-alpha1",
-    "@popperjs/core": "^2.11.7"
+    "@materialstyle/materialstyle": "^3.1.0",
+    "@popperjs/core": "^2.11.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "css-loader": "^6.7.3",
-    "postcss-loader": "^7.2.4",
-    "sass": "^1.62.0",
-    "sass-loader": "^13.2.2",
-    "style-loader": "^3.3.2",
-    "webpack": "^5.79.0",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.13.3"
+    "webpack-dev-server": "^4.15.1"
   }
 }

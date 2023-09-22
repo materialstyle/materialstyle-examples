@@ -3,6 +3,8 @@
   "description": "Include Material Style's source Sass and individual JavaScript plugins with Parcel.",
   "version": "0.0.0",
   "private": true,
+  "repository": "materialstyle/materialstyle-examples",
+  "license": "MIT",
   "scripts": {
     "start": "parcel serve src/index.html --public-url / --dist-dir dist",
     "build": "parcel build src/index.html --public-url / --dist-dir dist",
@@ -10,11 +12,11 @@
   },
   "dependencies": {
     "@material/ripple": "^14.0.0",
-    "@materialstyle/materialstyle": "^3.1.0-alpha1",
-    "@popperjs/core": "^2.11.7"
+    "@materialstyle/materialstyle": "^3.1.0",
+    "@popperjs/core": "^2.11.8"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3"
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
   }
 }

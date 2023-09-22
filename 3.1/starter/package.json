@@ -3,6 +3,8 @@
   "description": "Include Material Style CSS and JS via CDN.",
   "version": "0.0.0",
   "private": true,
+  "repository": "materialstyle/materialstyle-examples",
+  "license": "MIT",
   "scripts": {
     "start": "sirv --dev --no-clear --port 3000"
   },
